@@ -42,6 +42,7 @@ fn main(){
         }
 
         let duration =start.elapsed();//end of countdown
+        
         println!("Amount of symbols in text: {}", length);
         println!("Time to execute the funtion: {0:?}", duration);
     }
